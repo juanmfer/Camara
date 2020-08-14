@@ -8,3 +8,6 @@ Las fotos se almacenan en la carpeta donde tenes el archivo camara.py
 El archivo face_detector.xml, debe ir en la misma carpeta donde tienes el archivo camara.py
 
 El archivo face_detector.xml, es necesario para detectar el rostro.
+
+
+![camara](https://user-images.githubusercontent.com/69483837/90218155-80fe1b80-ddd9-11ea-869e-692b79050533.jpg)
