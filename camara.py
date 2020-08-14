@@ -69,8 +69,8 @@ class Application:
         self.lb.grid(row=2, column=0, rowspan=3, columnspan=3, sticky=S + N + E + W)
 
         # boton ventana
-        btdere1 = tk.Button(self.root, text='Ventana', command=self.ventana1)
-        btdere1.grid(row=2, column=3, sticky=E, ipadx=80)
+        btdere1 = tk.Button(self.root, text='Abrir Foto', command=self.ventana1)
+        btdere1.grid(row=2, column=3, sticky=E, ipadx=74)
 
         btdere2 = tk.Button(self.root, text='Salir', command=self.salida)
         btdere2.grid(row=2, column=3, sticky=E + S, ipadx=92)
@@ -84,7 +84,7 @@ class Application:
             value4 = self.lb.get(self.lb.curselection()[0])
             value5 = self.lb.get(self.lb.curselection()[0])
             self.ventana1.geometry('720x660')
-            self.ventana1.title('Ventana 2')
+            self.ventana1.title('Edicion')
             self.imgmuestro = value4
             self.img1 = Image.open(value4)
             self.img1 = self.img1.resize((640, 480), Image.ANTIALIAS)
